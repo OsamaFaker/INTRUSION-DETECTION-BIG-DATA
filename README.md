@@ -1,0 +1,2 @@
+# INTRUSION-DETECTION-BIG-DATA
+With the increasing volume of data generated from many sources it became difficult for Anomaly detection systems to detect attempts to penetrate systems and networks, especially if these data are processed in real time, In this project we propose to use of distributed computing systems to improve the anomaly detection in big data using spark streaming with deep learning ( artificial neural network or deep network) and apply this technique on NLS_KDD dataset then analysis the result.
