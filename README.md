@@ -1,8 +1,8 @@
 # INTRUSION-DETECTION-BIG-DATA
 
 
-##Dataset preprocessing  
-To provide a more suitable data for the neural network classifier, the dataset is passed through a group of preprocessing operations. These operations are summarized below:
+##Dataset preprocessing
+Two datasets are used in theis work, USNW-NB15 and CICIDS2017 datasets.To provide a more suitable data for the neural network classifier, the dataset is passed through a group of preprocessing operations. These operations are summarized below:
 
 1.Remove socket information: As the original dataset includes the IP address and Port numbers of the source and destination hosts in the network, it is important to remove such information to provide unbiased detection, where using such information may results in overfitted training toward this socket information. However, it is more important to let the classifier learn from the characteristics of the packet itself, so that, any host with similar packet information is filtered out regardless to its socket information.
 
