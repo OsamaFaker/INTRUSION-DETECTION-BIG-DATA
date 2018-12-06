@@ -2,7 +2,7 @@
 
 Datasets 
 
-two modern intrusion detection datasets using in this work, UNSW-NB15 and CICIDS2017 Which includes a wide range of modern attacks that allow for more realistic evaluation of the proposed approach.
+Two modern intrusion detection datasets are used in this work, UNSW-NB15 and CICIDS2017 Which includes a wide range of modern attacks that allow for more realistic evaluation of the proposed approach.
 
 To provide a more suitable data for the neural network classifier and ensemble techniques, the dataset is passed through a group of preprocessing operations. These operations are summarized below:
 
