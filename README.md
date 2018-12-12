@@ -31,6 +31,6 @@ To provide a more suitable data for the neural network classifier and ensemble t
 
 After the preprocessing phase, the k means clustering algorithm is applied to the two datasets for features ranking, the technique is using to do the features ranking, for features selections, is that taking each attribute separately, then use it to cluster the dataset. In binary classification k= 2, that mean the datapoint of feature is clustering to tow groups, normal or anomaly, and for multi class classification the k equals the number of attacks in datasets. thereafter the homogeneity score is calculated of the resulting clusters are then used as a rank for that attribute, where more homogenous results means that the objects in each cluster are more of a certain class. Such score indicate that better classification can be conducted relying on that attribute, while lower score indicates that this attribute does not have significant role in the classification.
 
-## Step 3: Traning DNN and Ensamble Techniques
+## Step 3: Training DNN and Ensamble Techniques
 Deep neural network, Random Forest and Gradient Boosted Tree Classification algorithms were training on CICIDS2018 and UNSW-NB15 data sets to build the model, two scenarios are executed using amazon web server EC2 (AWS), Where each algorithm was applied across two scenarios binary classification and multiclass classification except GPT, because spark MLlib don’t support it for multiclass classification. 
 
