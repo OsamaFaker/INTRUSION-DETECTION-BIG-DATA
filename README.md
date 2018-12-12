@@ -27,3 +27,4 @@ To provide a more suitable data for the neural network classifier and ensemble t
 
 6- for multiclass classification, Information packets that represent normal network traffic from both data sets are ignored and only the attack information packets are using to evaluate the proposed method. 
 
+## Step 3:training the DNN and Ensable technques
