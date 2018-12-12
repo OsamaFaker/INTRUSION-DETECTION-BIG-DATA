@@ -4,13 +4,14 @@ The proposed method evaluated by two modern datasets UNSW-NB15 and CICIDS2017, w
 
 ## Step 1: Download Datasets
 in this work, two datasets are used to evaluated the proposed method. the UNSW-NB15 is one of the latest datasets created by the cyber security research group at Australian center of cyber security (ACCS) for evaluating IDSs. it has become available to researchers since late 2015.the data set contains nine types of recent and common attacks, namely, Fuzzers, Analysis, Backdoors, Dos, Exploits, Generic, Reconnaissance, Shellcode and worms.
-https://www.unsw.adfa.edu.au/unsw-canberra-cyber/cybersecurity/ADFA-NB15-Datasets/
+
+link to download UNSW-NB15 https://www.unsw.adfa.edu.au/unsw-canberra-cyber/cybersecurity/ADFA-NB15-Datasets/
 
 CICIDS2017 was released in late 2017 via Canadian Institute for Cybersecurity (CIC), where it contains benign and the most up-to-data common attacks.CICIDS2017 Dataset contains the most common attack based on the 2016 McAfee report (Dos, DDos, Web based, Brute force, Infiltration, Heart-bleed, Bot and Scan) with more than 80 features extracted from the generated network traffic.
-Datasets 
-https://www.unb.ca/cic/datasets/ids-2017.html
 
-## Preprocessing Datasets
+link to download CICIDS2017: https://www.unb.ca/cic/datasets/ids-2017.html
+
+## Step 2: Preprocessing Datasets
 
 To provide a more suitable data for the neural network classifier and ensemble techniques, the dataset is passed through a group of preprocessing operations. These operations are summarized below:
 
