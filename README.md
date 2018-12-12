@@ -2,11 +2,15 @@
 
 The proposed method evaluated by two modern datasets UNSW-NB15 and CICIDS2017, which contain a combination of common and modern attacks, the data sets are preprocessing to be suitable for the applying the machine learning techniques. The k means clustering (Homogeneity metric) used as unsupervised feature selection technique to relevant features from both data sets that improve the performance of classifiers. Five-fold cross validation to estimate and improve the performance of machine learning models. Deep neural network and two ensemble techniques (RF, GBT) are using to extract the models from subset of relevant features. The phases of the proposed method are explained in more detail as follows:
 
-##step 1: download datasets
+## Step 1: Download Datasets
+in this work, two datasets are used to evaluated the proposed method. the UNSW-NB15 is one of the latest datasets created by the cyber security research group at Australian center of cyber security (ACCS) for evaluating IDSs. it has become available to researchers since late 2015.the data set contains nine types of recent and common attacks, namely, Fuzzers, Analysis, Backdoors, Dos, Exploits, Generic, Reconnaissance, Shellcode and worms.
+https://www.unsw.adfa.edu.au/unsw-canberra-cyber/cybersecurity/ADFA-NB15-Datasets/
 
+CICIDS2017 was released in late 2017 via Canadian Institute for Cybersecurity (CIC), where it contains benign and the most up-to-data common attacks.CICIDS2017 Dataset contains the most common attack based on the 2016 McAfee report (Dos, DDos, Web based, Brute force, Infiltration, Heart-bleed, Bot and Scan) with more than 80 features extracted from the generated network traffic.
 Datasets 
+https://www.unb.ca/cic/datasets/ids-2017.html
 
-Two modern intrusion detection datasets are used in this work, UNSW-NB15 and CICIDS2017 Which includes a wide range of modern attacks that allow for more realistic evaluation of the proposed approach.
+## Preprocessing Datasets
 
 To provide a more suitable data for the neural network classifier and ensemble techniques, the dataset is passed through a group of preprocessing operations. These operations are summarized below:
 
